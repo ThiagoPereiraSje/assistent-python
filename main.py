@@ -1,3 +1,7 @@
 # salvar dependências: pip freeze > packages
 # instalar dependências: pip install -r packages
-print("hello world!")
+
+from functions import say
+
+
+say('Hello world!')
