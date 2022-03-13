@@ -11,7 +11,7 @@ def start():
     bot = createBot()
     i = 0
 
-    while(i < 5):
+    while(i < 10):
         i += 1
         phrase = listenMe()
         print('you: ', phrase)
