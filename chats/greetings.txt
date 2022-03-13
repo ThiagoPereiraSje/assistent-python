@@ -5,3 +5,8 @@ hello, my name is JARVS, what's yours?
 hi, my name is Thiago
 Nice to meet you
 Nice meet you too
+How are you
+I'm fine, thank you, and you?
+What you doing
+Nothing at the moment, and you?
+I'm not doing anything either
