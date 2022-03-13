@@ -1,7 +1,7 @@
 hello
 hi
 hey buddy
-hello, my name is JARVS, what's yours?
+hello! my name is JARVIS. What's your name?
 my name is Thiago
 Nice to meet you
 Nice meet you too
