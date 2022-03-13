@@ -18,7 +18,12 @@ def say_portuguese(phrase):
     os.system(PORTUGUESE + ' "'+phrase+'"')
 
 
-def builtTrainedBot():
+def createBot():
+    bot = ChatBot('JARVS', read_only=True)
+    return bot
+
+
+def trainBot():
     bot = ChatBot('JARVS')
     trainer = ListTrainer(bot)
 
@@ -27,6 +32,17 @@ def builtTrainedBot():
         trainer.train(fileLines)
 
     return bot
+
+
+# def builtTrainedBot():
+#     bot = ChatBot('JARVS')
+#     trainer = ListTrainer(bot)
+
+#     for _file in os.listdir('chats'):
+#         fileLines = open('chats/' + _file, 'r').readlines()
+#         trainer.train(fileLines)
+
+#     return bot
 
 
 def listenMe():
@@ -40,4 +56,5 @@ def listenMe():
             phrase = mic.recognize_google(audio)
             return phrase
         except sr.UnknownValueError:
-            print('oops!')
+            print('bot: oops!')
+            say_english('excuse me! can repeat?')

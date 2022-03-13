@@ -2,7 +2,7 @@ hello
 hi
 hey buddy
 hello, my name is JARVS, what's yours?
-hi, my name is Thiago
+my name is Thiago
 Nice to meet you
 Nice meet you too
 How are you

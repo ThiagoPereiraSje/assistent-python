@@ -3,3 +3,4 @@ flake8
 pycodestyle
 SpeechRecognition
 chatterbot
+chatterbot-corpus
