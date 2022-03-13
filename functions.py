@@ -16,7 +16,7 @@ def say_portuguese(phrase):
     os.system(PORTUGUESE + ' "'+phrase+'"')
 
 
-def listen():
+def listenMe():
     mic = sr.Recognizer()
 
     with sr.Microphone() as source:
@@ -25,6 +25,6 @@ def listen():
         try:
             audio = mic.listen(source)
             phrase = mic.recognize_google(audio)
-            print('you said: ', phrase)
+            return phrase
         except sr.UnknownValueError:
             print('oops!')
