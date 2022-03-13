@@ -34,17 +34,6 @@ def trainBot():
     return bot
 
 
-# def builtTrainedBot():
-#     bot = ChatBot('JARVS')
-#     trainer = ListTrainer(bot)
-
-#     for _file in os.listdir('chats'):
-#         fileLines = open('chats/' + _file, 'r').readlines()
-#         trainer.train(fileLines)
-
-#     return bot
-
-
 def listenMe():
     mic = sr.Recognizer()
 
